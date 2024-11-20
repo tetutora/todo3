@@ -20,5 +20,5 @@ use App\Http\Controllers\TodoController;
 
 Route::controller(TodoController::class)->group(function()
 {
-    Route::get('/','example');
+    Route::get('/','index');
 });

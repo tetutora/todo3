@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class TodoController extends Controller
 {
-    public function example()
+    public function index()
     {
-        return view('example');
+        return view('index');
     }
 }
